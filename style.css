@@ -1,0 +1,119 @@
+html, body {
+  height: 95%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+  width: 25rem;
+  height: 200%;
+ 
+}
+.custom-width {
+  width: 500px; 
+  margin-left: 30px;
+
+}
+.phone{
+  
+  height: 40px;
+  width:45px;
+}
+.message{
+  height: 20px;
+  width:60px;
+}
+.phoneSection {
+  margin-right: 50px;
+}
+.messageSection{
+  margin-right: 40px;
+}
+.location{
+  height: 35px;
+  width:40px;
+}
+.locationSection {
+  margin-right: 60px;
+}
+.bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.bottom img {
+  max-width: 205px; 
+  margin-bottom: 50px;
+  margin-right: 20px;
+  margin-left: 0px;
+}
+.card-img-top{
+  max-width: 100px;
+}
+.formImage img {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  max-width: 100px; 
+}
+.required:after {
+  content: " *"; 
+  color: red; 
+}
+.cardSection{
+  border-radius: 10px !important;
+  min-height: 500px;
+ 
+}
+.hello{
+  color:#099f4e;
+}
+.card-text{
+  font-size: 15px;
+}
+.form{
+  
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.form-label{
+  font-size: 12px;
+  color: black;
+}
+.custom-height {
+  height: 25px; 
+  padding: 3px; 
+ 
+}
+::placeholder {
+  font-size: 13px;
+  
+}
+button{
+  background-color:#099f4e;
+}
+
+@media (max-width: 768px) {
+  .d-flex {
+    flex-direction: column !important; 
+  }
+
+  .custom-width {
+    width: 100% !important; 
+    margin-left: 0 !important; 
+  }
+
+  .card {
+    width: 100% !important; 
+    margin-top: 20px !important;
+  }
+
+  .formImage img {
+    width: 100%; 
+    height: auto; 
+  }
+}
+.bottom{
+  display: none;
+}
+
